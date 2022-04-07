@@ -1,0 +1,118 @@
+  /* Control the left side */
+  .login {
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-color: #340067;
+    position: fixed;
+    color: whitesmoke;
+    font-size: large;
+  }
+
+  /* Control the paragraph font size */
+
+  #signup-head {
+      font-size: 35px;
+  }
+
+  h5 {
+    color: red;
+}
+  
+  /* Control the right side */
+  .signup {
+    right: 0;
+    width: 65%;
+    height: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+    font-size: large;
+  }
+
+  .form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+  }
+
+  /* Controls image  */
+  .img_login {
+    width: 70%;
+  }
+
+  .img_signup {
+    width: 17%;
+}
+
+
+  #login_button {
+    background-color: #e78300;
+    width: 45%;
+    border: none;
+    color: whitesmoke;
+    padding: 3.5%;
+    text-align: center;
+    font-size: 110%;
+    cursor: pointer;
+    border-radius: 99em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+  }
+
+  #login_button:hover {
+    background-color: #F78D00;
+  }
+
+
+  #signup_button {
+    background-color: #101010;
+    width: 40%;
+    border: none;
+    color: whitesmoke;
+    padding: 3%;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 99em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+  }
+
+  #signup_button:hover {
+    background-color: #303030;
+  }
+
+
+  .login .input {
+    background: none;
+    border: 0;
+    color: whitesmoke;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    border-bottom: 3px solid whitesmoke;
+  }
+
+
+  .signup .input {
+    background: #DCDCDC;
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    border-bottom: 3px solid black;
+  }

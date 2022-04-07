@@ -1,0 +1,42 @@
+.main_navigation {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    margin-left: 1%;
+    border-radius: 1em;
+    padding-top: 2%;
+    background-color: #340067;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.logo {
+    width: 200%;
+}
+
+.icons {
+    width: 50%;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.logout {
+    width: 50%;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.logout:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.spacer {
+    padding: 15%;
+}

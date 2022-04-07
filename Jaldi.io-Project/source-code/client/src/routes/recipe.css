@@ -1,0 +1,53 @@
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .recipehome {
+    text-decoration: none;
+  }
+  
+  .recipe-preview {
+    margin-top: 1%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .recipe-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  .recipe-preview:hover .edit_del {
+    display: block;
+  }
+  
+  .edit_del {
+    display: none;
+  }
+  
+  .create button {
+    background: #301970;
+    color: #fff;
+    border: 0;
+    padding: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .create{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+  }
+  
+  .ingredientContainer::-webkit-scrollbar {
+    display: none;
+  }

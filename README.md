@@ -1,6 +1,6 @@
 # Jaldi.io Project
 
-!(Jaldi.io)[./Images/cover.png]
+![Jaldi.io](./Images/cover.png)
 
 
 

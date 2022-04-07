@@ -1,6 +1,6 @@
 # Jaldi.io Project
 
-!(Jaldi.io)[Jaldi-io-Project/Images/cover.png] style="zoom:30%;" />
+!(Jaldi.io)[./Images/cover.png]
 
 
 

@@ -1,6 +1,6 @@
 # Jaldi.io Project
 
-<img src=".\images\cover.png" style="zoom:30%;" />
+<img src="Jaldi-io-Project/Images/cover.png" style="zoom:30%;" />
 
 
 
